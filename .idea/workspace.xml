@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="" />
+    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Readme change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +33,15 @@
       <option name="presentableId" value="Default" />
       <updated>1637106282107</updated>
       <workItem from="1637106283618" duration="8000" />
+      <workItem from="1637107089997" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Readme change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme change" />
   </component>
 </project>
