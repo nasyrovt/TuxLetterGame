@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    Document   : save_example.xml.xml
+    Created on : August 31, 2014, 3:31 PM
+    Author     : Johan Sarrazin / Céline Fouard / Nicolas Glade
+    Description:
+        Purpose of the document follows.
+-->
+
+<profil xmlns="http://myGame/tux"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://myGame/tux ./profil.xsd">
+    <nom>Gregory</nom>
+    <avatar>temp.jpg</avatar>
+    <anniversaire>1997-05-23</anniversaire>
+    <parties>
+        <partie date="2010-10-10">
+            <temps>15.0</temps>
+            <mot niveau="1">cle</mot>
+        </partie>
+        <partie date="2010-10-10">
+            <temps>17.0</temps>
+            <mot niveau="2">indice</mot>
+        </partie>
+        <partie date="2010-10-10">
+            <temps>20.0</temps>
+            <mot niveau="3">Soleil</mot>
+        </partie>
+        <partie date="2010-10-10" trouvé="75%">
+            <temps>20.0</temps>
+            <mot niveau="4">Pre-commander</mot>
+        </partie>
+        <partie date="2010-10-10">
+            <temps>22.0</temps>
+            <mot niveau="4">Pre-commander</mot>
+        </partie>
+    </parties>
+</profil>
