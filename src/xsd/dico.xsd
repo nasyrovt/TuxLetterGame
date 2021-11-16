@@ -18,8 +18,7 @@
 </xs:complexType>
 <xs:simpleType name="Mot">
         <xs:restriction base="xs:string">
-            <xs:pattern value="(([a-zA-Z]{3})([a-zA-Z])*)+"/>
-            <xs:pattern value="([a-zA-Z])\-([a-zA-Z])*"/>
+            <xs:pattern value="[\p{L}-]{3,}"/>
             <xs:minLength value="3"/>
         </xs:restriction>
 </xs:simpleType>

@@ -10,7 +10,7 @@
 
 <profil xmlns="http://myGame/tux"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://myGame/tux ./profil.xsd">
+        xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
     <nom>Gregory</nom>
     <avatar>temp.jpg</avatar>
     <anniversaire>1997-05-23</anniversaire>

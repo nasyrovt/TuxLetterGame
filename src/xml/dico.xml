@@ -3,9 +3,14 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://myGame/tux ../xsd/dico.xsd">
     <!--1 or more repetitions:-->
-    <mot niveau="5">Station</mot>
-    <mot niveau="5">Bonne</mot>
-    <mot niveau="5">Jolie</mot>
-    <mot niveau="5">travail</mot>
-    <mot niveau="3">cle</mot>
+    <mot niveau="4">Station</mot>
+    <mot niveau="3">Bonne</mot>
+    <mot niveau="3">Jolie</mot>
+    <mot niveau="3">Travail</mot>
+    <mot niveau="1">Cle</mot>
+    <mot niveau="5">Stationement</mot>
+    <mot niveau="5">Collaboration</mot>
+    <mot niveau="2">Sushi</mot>
+    <mot niveau="5">Extraordinaire</mot>
+    <mot niveau="4">Ordinateur</mot>
 </dictionnaire>
