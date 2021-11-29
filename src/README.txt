@@ -1,5 +1,1 @@
-Add CSS stylesheet to profil.xsl
-Add scoreCounter to profil.xml
-<!--- Comments!!! --->
-To do: Cabinet 5,6
-
+Simple game using Env3d engine with XML Parser
