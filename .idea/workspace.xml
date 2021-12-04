@@ -2,27 +2,470 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Readme change">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/DicoHTML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/ProfilHTML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/bluejext.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/env3d_jme3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/eventbus.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/gluegen-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/j-ogg-oggd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/j-ogg-vorbisd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-blender.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-desktop.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-effects.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-jbullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-jogg.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-lwjgl-natives.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-networking.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-niftygui.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-plugins.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jME3-terrain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jMonkeyEngine3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jbullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/jinput.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/nifty-default-controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/nifty-style-black.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/nifty.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/rsyntaxtextarea.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/stack-alloc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/vecmath.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/+libs/xmlpull-xpp3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/OpenAL32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/OpenAL64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/appletloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/env3d_jme3.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/eventbus.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/game3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/gluegen-rt.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/j-ogg-oggd.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/j-ogg-vorbisd.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-blender.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-core.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-desktop.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-effects.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-jbullet.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-jogg.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-lwjgl-natives.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-lwjgl.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-networking.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-niftygui.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-plugins.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jME3-terrain.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jMonkeyEngine3.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jbullet.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/jinput.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/linux_natives.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/lwjgl.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/lwjgl_util_applet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/lzma.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/macosx_natives.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/nifty-default-controls.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/nifty-style-black.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/nifty.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/rsyntaxtextarea.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/solaris_natives.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/stack-alloc.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/vecmath.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/windows_natives.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/xmlpull-xpp3.jar.pack.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/bluej.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/env3d_characterpack.jar.lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/env3dkey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/ant.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/Env.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/Env3DActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/EnvObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/EnvRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/GLUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/ModelData3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/ObjImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/OpenGLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/TextureManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/Vector3f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/MTLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/OBJParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/RGBColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/TDModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/TDModelPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/env3d/android/objLoader/Triangulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/jme3/com/mycompany/mygame/AndroidImageBasedHeightMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/jme3/com/mycompany/mygame/EnvHarness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/android/jme3/com/mycompany/mygame/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.3.1.Basic/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.3.1.Basic/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.3.1.Basic/SimpleRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.5.2.World.Of.Zuul.V2/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.5.2.World.Of.Zuul.V2/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.5.2.World.Of.Zuul.V2/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/1.5.2.World.Of.Zuul.V2/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/2.4.1.Fox.vs.Tux/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/2.4.1.Fox.vs.Tux/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/2.4.1.Fox.vs.Tux/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/2.4.1.Fox.vs.Tux/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/android/2.4.1.Fox.vs.Tux/Tux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.1.1.Doty/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.3.1.Basic/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.3.2.DotyFeeding/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.3.2.DotyFeeding/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.4.1.Monster_vs_Doty/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.4.1.Monster_vs_Doty/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.4.1.Monster_vs_Doty/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.1.World_of_Zuul_v1/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.1.World_of_Zuul_v1/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.1.World_of_Zuul_v1/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.1.World_of_Zuul_v1/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.2.World_of_Zuul_v2/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.2.World_of_Zuul_v2/Doty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.2.World_of_Zuul_v2/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/1.5.2.World_of_Zuul_v2/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/2.4.1.Fox_vs_Tux/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/2.4.1.Fox_vs_Tux/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/2.4.1.Fox_vs_Tux/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/2.4.1.Fox_vs_Tux/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/2.4.1.Fox_vs_Tux/Tux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.1.1.Terrain/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.2.1.Water/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.3.1.Particle.Snow/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.4.2.Nifty.Controller/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.4.2.Nifty.Controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.4.2.Nifty.Controller/ScreenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/3.4.3.Nifty.GUI/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/LongHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/MiniMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/sounds/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/lessons/desktop/5.4.1.Zombie.Hunter/world.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/netbeans/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/scenecreator/android/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/scenecreator/android/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/scenecreator/desktop/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/examples/scenecreator/desktop/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/env3d_jme3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/ant-launcher.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/bluejext.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/commons-io-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/eventbus.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/gluegen-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/j-ogg-oggd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/j-ogg-vorbisd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-blender.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-desktop.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-effects.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-jbullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-jogg.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-lwjgl-natives.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-networking.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-niftygui.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-plugins.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jME3-terrain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jMonkeyEngine3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jbullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/jinput.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/nifty-default-controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/nifty-style-black.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/nifty.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/rsyntaxtextarea.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/stack-alloc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/vecmath.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extensions/lib/xmlpull-xpp3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/admob/GoogleAdMobAdsSdk-6.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/jME3-android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin-osx-10.8/ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin-osx-10.8/windres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/ld.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/windres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/bin/windres.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/head/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/head/consolehead.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/head/guihead.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/head/head.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/launch4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/MinGW.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/crt2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libadvapi32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libgcc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libkernel32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libmingw32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libmsvcrt.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libshell32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/w32api/libuser32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/launch4j/xstream.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/macapp/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/macapp/osx-icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/extras/macapp/osx-stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/jinput-dx8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/jinput-dx8_64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/jinput-raw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/jinput-raw_64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/libjinput-linux.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/libjinput-linux64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/libjinput-osx.jnilib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/liblwjgl.jnilib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/liblwjgl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/liblwjgl64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/libopenal.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/libopenal64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/lwjgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/lwjgl64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/arrows/arrow1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/arrows/arrow2.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/arrows/arrow3.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/arrows/arrow4.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/army.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/box-dude.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/kungfu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/ninja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/boxDude/readme-license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/cube/cube.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/cube/cube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/fence/fences.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/fence/fences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/fox/fox.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/fox/fox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/igloo/igloo.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/igloo/igloo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/cube.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/cube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/letter/z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/longHouse/HouseLong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/longHouse/LongHouse.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_grass4_col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_grassoverhang2_col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_grayrock1_col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_redrock_col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_redrock_nor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/generic_redrock_spec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/mountain1_ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/mountain2_ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/mountains.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/mountain/mountains.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux_dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux_happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux_sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/models/tux/tux_special.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/openal.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/package.bluej" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/controller/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/controller/layout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/controller/touched.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty_happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty_sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty_surprise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/doty_talk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/explode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/fence0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/fence1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/AncientFlooring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/clover1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/dirt1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/grass1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/grass2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/leaves1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/paving6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/planks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/rock6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/sand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/snow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/woodFloor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/floor/woodFloor2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/granite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/marble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/mud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/flare1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/flare2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/flare3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/flare4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/flaresmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/halo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/snowflake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/spark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/particle/streaks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/cave/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/city/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/default/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/evening/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/fantasy/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/holodeck/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/interstellar/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/snow/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/skybox/sunny/west.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/terrain/3dtech0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/terrain/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/terrain/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/terrain/termap1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/terrain/terrain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/textures/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuxLetterGame_template/world.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/profil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TuxLetterGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TuxLetterGame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/dico.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/dico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xslt/dico.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/xslt/dico.xsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="211QnfmJA2FY6tpE5lJMHp6e7Ud" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/html/temp.html" />
+  </component>
+  <component name="RunManager" selected="XSLT.ProfilHTML">
+    <list>
+      <item itemvalue="XSLT.DicoHTML" />
+      <item itemvalue="XSLT.ProfilHTML" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,14 +476,37 @@
       <option name="presentableId" value="Default" />
       <updated>1637106282107</updated>
       <workItem from="1637106283618" duration="8000" />
-      <workItem from="1637107089997" duration="74000" />
+      <workItem from="1637107089997" duration="105000" />
+      <workItem from="1637256491688" duration="121000" />
+      <workItem from="1637966195251" duration="1007000" />
     </task>
+    <task id="LOCAL-00001" summary="Readme change">
+      <created>1637107171074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637107171074</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Readme change" />
     <option name="LAST_COMMIT_MESSAGE" value="Readme change" />
   </component>

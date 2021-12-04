@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DicoHTML" type="XSLT" factoryName="XSLT">
+    <option name="myOutputFile" value="F:\Courses\XML\TuxLetterGame\src\html\dico.html" />
+    <option name="myOpenOutputFile" value="true" />
+    <option name="myOpenInBrowser" value="false" />
+    <option name="mySmartErrorHandling" value="true" />
+    <option name="myRunnerPort" value="34873" />
+    <option name="myVmArguments" value="" />
+    <option name="myWorkingDirectory" value="" />
+    <option name="myModule" />
+    <option name="myJdk" />
+    <XsltFile url="file://$PROJECT_DIR$/src/xslt/dico.xsl" />
+    <XmlFile url="file://$PROJECT_DIR$/src/xml/dico.xml" />
+    <parameters />
+    <OutputType value="CONSOLE" save-to-file="true" />
+    <FileType name="XML" />
+    <JdkChoice value="FROM_MODULE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
