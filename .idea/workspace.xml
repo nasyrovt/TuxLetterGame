@@ -54,6 +54,7 @@
       <workItem from="1638135067923" duration="293000" />
       <workItem from="1638135460775" duration="253000" />
       <workItem from="1638150438388" duration="859000" />
+      <workItem from="1638880793592" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Game on Env3d and using Parser got XML file">
       <created>1638150606769</created>
@@ -62,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638150606769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tp11 got it">
+      <created>1638881014969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881014970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tp11 got it">
+      <created>1638881047321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881047321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,10 +93,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Readme change" />
     <MESSAGE value="Updated Game on Env3d and using Parser got XML file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Game on Env3d and using Parser got XML file" />
+    <MESSAGE value="tp11 got it" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp11 got it" />
   </component>
 </project>
