@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Updated Game on Env3d and using Parser got XML file">
+    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="tp11 got it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/applet/game3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/applet/game3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/LanceurDeJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/LanceurDeJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xml/dico.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/dico.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
