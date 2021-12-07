@@ -84,7 +84,7 @@ public abstract class Jeu  {
         
         Partie p=new Partie(dict.getMotFromListe(level),level);
         
-        //this.AddWordInEnv(niveau, p.getMot());
+        
         
         System.out.println(p.getMot());
        
