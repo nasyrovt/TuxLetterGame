@@ -5,13 +5,11 @@
         <group>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/LanceurDeJeu.java</file>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Partie.java</file>
-            <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Tux.java</file>
-            <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Letter.java</file>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Jeu.java</file>
+            <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/JeuDevineLeMotOrdre.java</file>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Room.java</file>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Dico.java</file>
             <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/Profil.java</file>
-            <file>file:/C:/Users/Нурбек/Documents/GitHub/TuxLetterGame/TuxLetterGame_template/src/game/TestDico.java</file>
         </group>
     </open-files>
 </project-private>

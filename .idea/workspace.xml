@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Readme change">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Updated Game on Env3d and using Parser got XML file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +46,35 @@
       <workItem from="1638057214557" duration="211000" />
       <workItem from="1638135067923" duration="293000" />
       <workItem from="1638135460775" duration="253000" />
+      <workItem from="1638150438388" duration="859000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Game on Env3d and using Parser got XML file">
+      <created>1638150606769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638150606769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme change" />
+    <MESSAGE value="Updated Game on Env3d and using Parser got XML file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Game on Env3d and using Parser got XML file" />
   </component>
 </project>

@@ -11,11 +11,14 @@ package game;
 public class LanceurDeJeu {
     public static void main(String args[]) {
         // Declare un Jeu
-        Jeu jeu=new Jeu(); 
+        //Jeu jeu=new Jeu(); 
         //Instancie un nouveau jeu
         //?!!?;
         //Execute le jeu
+        
+        Jeu jeu=new JeuDevineLeMotOrdre();
         jeu.execute();
+        
         //?!!?;
     }
 }
