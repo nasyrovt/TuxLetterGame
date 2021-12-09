@@ -49,7 +49,6 @@ public class Tux extends EnvNode{
           this.setZ(this.getZ() + 1.0);
           }
       }
-      System.out.println(String.format("x -%f,y-%f,z-%f", this.getX(),this.getY(),this.getZ()));
     }
    public Boolean testeRoomCollision(double x,double z){
        if((x>=this.room.getWidth()-1)||( z>=this.room.getDepth()-1) ||( x<=1.0) ||( z<=1.0)){

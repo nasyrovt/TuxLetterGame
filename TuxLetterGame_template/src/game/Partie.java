@@ -6,11 +6,10 @@ package game;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
 
 /**
  *
@@ -27,6 +26,25 @@ public class Partie {
         this.date=new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         this.mot=mot;
         this.niveau=niveau;
+        switch(niveau){
+            case 1:
+                setTemps(8);
+                break;
+            case 2:
+                setTemps(10);
+                break;
+            case 3:
+                setTemps(12);
+                break;
+            case 4:
+                setTemps(15);
+                break;
+            case 5:
+                setTemps(20);
+                break;
+            default:
+                setTemps(20);
+        }
     }
 
     public Partie(Element el_partie){
@@ -40,13 +58,12 @@ public class Partie {
      try{
         
         final Element the_el=(Element) doc.createElement("partie");
-        //this(the_el);
         final Element word=(Element) doc.createElement("mot");
         final Element time=(Element) doc.createElement("temps");
-        the_el.setAttribute(date, new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        the_el.setAttribute("date", new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         word.setAttribute("niveau", Integer.toString(this.niveau));
         word.setTextContent(this.mot);
-        the_el.setAttribute("trouve",Integer.toString(trouve));
+        the_el.setAttribute("trouve",Integer.toString(this.trouve));
         time.setTextContent(Integer.toString(this.temps));
         the_el.appendChild(time);
         the_el.appendChild(word);
@@ -54,13 +71,17 @@ public class Partie {
     }
     catch (Exception e){
         
-        
+        System.out.println("Cant create an emlement as partie\n");
         
     }
     return null;
   }
   public void setTrouve(int nb_letters){
-        this.trouve=(this.mot.length()-nb_letters)/this.mot.length();
+        Integer x=this.mot.length()-(this.mot.length()-nb_letters);
+        Double y=x.doubleValue();
+        y=(y/this.mot.length())*100.0;
+        this.trouve=y.intValue();
+
     }
   public void setTemps(int temps){
       this.temps=temps;
@@ -71,12 +92,15 @@ public class Partie {
   }
   @Override
   public String toString(){
-      return  String.format("Date is %s,word is %s,level is %s ,end is %d", this.date,this.mot,Integer.toString(this.niveau),this.fin);
+      return  String.format("\nDate is %s,word is %s,level is %s ,end is %d\n", this.date,this.mot,Integer.toString(this.niveau),this.fin);
     }
   public String getMot(){
     return this.mot;
   }
-  public void setEnd(int temps){
-      this.fin=temps;
-  } 
+ 
+  public int getTemps(){
+      return this.temps;
+  
+  }
+  
 }

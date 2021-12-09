@@ -49,11 +49,7 @@ public class Chronometre {
         current = System.currentTimeMillis();
         int timeSpent;
         timeSpent = (int) ((current-begin)/1000.0);
-        System.out.println("Time spent is ");
-        System.out.println(timeSpent);
-        System.out.println(end);
-        System.out.println(current);
-        System.out.println(limite);
+        
         if(timeSpent>limite){
             return true;
         }

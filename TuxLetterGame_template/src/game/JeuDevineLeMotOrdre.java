@@ -33,17 +33,17 @@ public class JeuDevineLeMotOrdre extends Jeu {
     @Override
     protected void demarrerPartie(Partie partie) {
          //To change body of generated methods, choose Tools | Templates.
-         int limite=20;
+         
         
-         this.chrono=new Chronometre(limite);
+         this.chrono=new Chronometre(partie.getTemps());
          chrono.start();
          Long time=chrono.getTime();
-         int time2=time.intValue();
+         
          super.AddWordInEnv(super.level,partie.getMot());
          this.nbLettreRestantes=super.letters.size();
          System.out.println( Integer.toString(this.nbLettreRestantes));
-         partie.setTemps(time2);
-         partie.setEnd(time2+limite);
+         
+         //partie.setEnd();
          System.out.println("Demmarer partie "+partie.toString());
          //System.out.println("End partie "+partie.toString());
     }
@@ -88,7 +88,7 @@ public class JeuDevineLeMotOrdre extends Jeu {
             
             fake+=super.mot.get(i).getLetter();
         }
-                
+        partie.setTrouve(super.mot.size());
         System.out.println("Your word here is "+fake);
         System.out.println("Expected word here is "+word);
        
