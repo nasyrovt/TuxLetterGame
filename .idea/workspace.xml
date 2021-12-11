@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="Parties is done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java" afterDir="false" />
-    </list>
+    <list default="true" id="396059dc-f666-48a1-af8e-6d0ca84cc352" name="Changes" comment="TP12 is done .Fixed some errors.&#10;Fixed a feature save_profil and create profil in xml files.(Profil-temp.xml for the profile that alrdy exist,profil_temp.xml for the new profil that we will write)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +50,7 @@
       <workItem from="1638894581107" duration="170000" />
       <workItem from="1638923571486" duration="183000" />
       <workItem from="1638963336585" duration="11000" />
+      <workItem from="1639060966518" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Game on Env3d and using Parser got XML file">
       <created>1638150606769</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638894734041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TP12 is done .Fixed some errors.&#10;Fixed a feature save_profil and create profil in xml files.(Profil-temp.xml for the profile that alrdy exist,profil_temp.xml for the new profil that we will write)">
+      <created>1639061159242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639061159242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +118,7 @@
     <MESSAGE value="Updated Game on Env3d and using Parser got XML file" />
     <MESSAGE value="tp11 got it" />
     <MESSAGE value="Parties is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parties is done" />
+    <MESSAGE value="TP12 is done .Fixed some errors.&#10;Fixed a feature save_profil and create profil in xml files.(Profil-temp.xml for the profile that alrdy exist,profil_temp.xml for the new profil that we will write)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP12 is done .Fixed some errors.&#10;Fixed a feature save_profil and create profil in xml files.(Profil-temp.xml for the profile that alrdy exist,profil_temp.xml for the new profil that we will write)" />
   </component>
 </project>

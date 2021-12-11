@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+    Document   : save_example.xml.xml
+    Created on : August 31, 2014, 3:31 PM
+    Author     : Johan Sarrazin / Céline Fouard / Nicolas Glade
+    Description:
+        Purpose of the document follows.
+--><profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    <nom>alban</nom>
+    <avatar>../imgs/img.jpg</avatar>
+    <anniversaire>2006-05-08</anniversaire>
+    <parties>
+        <partie date="2013-12-10">
+            <temps>20.0</temps>
+            <mot niveau="1">cle</mot>
+        </partie>
+        <partie date="2013-12-11" trouvé="75">
+            <mot niveau="2">indice</mot>
+        </partie>
+        <partie date="2013-12-11">
+            <temps>20.0</temps>
+            <mot niveau="2">indice</mot>
+        </partie>
+	<partie date="2013-12-11">
+            <temps>20.0</temps>
+            <mot niveau="2">chuika</mot>
+        </partie>
+    <partie date="2021-12-08" trouve="0"><temps>1691121690</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="66"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="33"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-08" trouve="0"><temps>8</temps><mot niveau="1">elP</mot></partie>
+<partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="200"><temps>20</temps><mot niveau="5">Cle</mot></partie><partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="28"><temps>20</temps><mot niveau="5">Extraordinaire</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-09" trouve="25"><temps>20</temps><mot niveau="5">Stationement</mot></partie><partie date="2021-12-10" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-10" trouve="0"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-11" trouve="100"><temps>8</temps><mot niveau="1">Cle</mot></partie><partie date="2021-12-11" trouve="25"><temps>20</temps><mot niveau="5">Stationement</mot></partie></parties>
+</profil>

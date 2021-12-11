@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396059dc-f666-48a1-af8e-6d0ca84cc352\" name=\"Changes\" comment=\"tp11 got it\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/applet/game3.jar\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/applet/game3.jar\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/nbproject/private/private.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Jeu.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/LanceurDeJeu.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/LanceurDeJeu.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Partie.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TuxLetterGame_template/src/game/Profil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/xml/dico.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/xml/dico.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"211QnfmJA2FY6tpE5lJMHp6e7Ud\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/TuxLetterGame_template\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Unnamed\" type=\"JarApplication\" nameIsGenerated=\"true\">\r\n      <option name=\"WORKING_DIRECTORY\" value=\"C:\\Users\\Нурбек\\Documents\\GitHub\\TuxLetterGame\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <module name=\"TuxLetterGame\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396059dc-f666-48a1-af8e-6d0ca84cc352\" name=\"Changes\" comment=\"\" />\r\n      <created>1637106282107</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1637106282107</updated>\r\n      <workItem from=\"1637106283618\" duration=\"8000\" />\r\n      <workItem from=\"1637107089997\" duration=\"74000\" />\r\n      <workItem from=\"1638055315691\" duration=\"1056000\" />\r\n      <workItem from=\"1638057214557\" duration=\"211000\" />\r\n      <workItem from=\"1638135067923\" duration=\"293000\" />\r\n      <workItem from=\"1638135460775\" duration=\"253000\" />\r\n      <workItem from=\"1638150438388\" duration=\"859000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Updated Game on Env3d and using Parser got XML file\">\r\n      <created>1638150606769</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1638150606769</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Readme change\" />\r\n    <MESSAGE value=\"Updated Game on Env3d and using Parser got XML file\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Updated Game on Env3d and using Parser got XML file\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bdfec5b0da248d462bcf8ca9ee58d7be37fc27e7)
++++ b/.idea/workspace.xml	(date 1638881074916)
+@@ -54,6 +54,7 @@
+       <workItem from="1638135067923" duration="293000" />
+       <workItem from="1638135460775" duration="253000" />
+       <workItem from="1638150438388" duration="859000" />
++      <workItem from="1638880793592" duration="221000" />
+     </task>
+     <task id="LOCAL-00001" summary="Updated Game on Env3d and using Parser got XML file">
+       <created>1638150606769</created>
+@@ -62,7 +63,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1638150606769</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="tp11 got it">
++      <created>1638881014969</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1638881014970</updated>
++    </task>
++    <task id="LOCAL-00003" summary="tp11 got it">
++      <created>1638881047321</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1638881047321</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -78,10 +93,13 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="Readme change" />
+     <MESSAGE value="Updated Game on Env3d and using Parser got XML file" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Updated Game on Env3d and using Parser got XML file" />
++    <MESSAGE value="tp11 got it" />
++    <option name="LAST_COMMIT_MESSAGE" value="tp11 got it" />
+   </component>
+ </project>
+\ No newline at end of file

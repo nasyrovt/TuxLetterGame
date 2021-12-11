@@ -57,7 +57,7 @@ public abstract class Jeu  {
        
         
        
-        dict=new Dico("../src/xml/dico.xml");
+        dict=new Dico("../src/xml/dico.xml");//src/xml/dico.xml
         dict.lireDictDom("../src/xml", "dico.xml");
         menuText = new EnvTextMap(env);
         
@@ -427,8 +427,7 @@ public abstract class Jeu  {
         menuText.getText("Mot").display();
         
         
-        /*menuText.addText(String.format(("%d"),1),"Compt",300, 400);
-        menuText.getText("Compt").display();*/
+        
         env.advanceOneFrame();
         
         try{
