@@ -41,7 +41,7 @@ public class Profil {
         this.dateNaissance = dateNaissance;
         this.avatar="image/tux.jpg";
         this.parties = new ArrayList<>();
-        System.out.println(this.parties.size());
+        
     }
     public Profil(String filename){//via parser DOM
         
@@ -51,21 +51,12 @@ public class Profil {
          Document doc = this.fromXml(filename);
          Element prof=(Element)doc.getChildNodes().item(1);//or 0
          this.nom=prof.getChildNodes().item(1).getTextContent();
-         System.out.println(this.nom);
          this.dateNaissance=prof.getChildNodes().item(5).getTextContent();
-         System.out.println(this.dateNaissance);
          this.avatar=prof.getChildNodes().item(3).getTextContent();
-         System.out.println(this.avatar);
          this.parties=new ArrayList<>();
          NodeList nodeList=doc.getElementsByTagName("partie");
-         System.out.println("The number of parties \n");
-         System.out.println(nodeList.getLength());
-         System.out.print(nodeList.item(2).getTextContent());
-         
          for(int i=0;i<nodeList.getLength();i++){
-             
              Partie p=Profil.FromElementToObj((Element)nodeList.item(i));
-             System.out.println(p.toString());
              parties.add(p);
          
             } 
@@ -156,7 +147,6 @@ public class Profil {
         Transformer transformer = TransformerFactory.newInstance().newTransformer();
         Result output = new StreamResult(new File(filename));
         Source input = new DOMSource(d);
-
         transformer.transform(input, output);
         }
         catch(Exception toXML_err){
@@ -167,10 +157,7 @@ public class Profil {
     public static Partie FromElementToObj(Element e) {//de l'object dom a la partie Object
       
       String mot=e.getElementsByTagName("mot").item(0).getTextContent();
-      System.out.println(mot);
-     
       String niv_str=e.getElementsByTagName("mot").item(0).getAttributes().getNamedItem("niveau").getNodeValue();;
-      System.out.println(niv_str);
       Partie p=new Partie(mot,Integer.valueOf(niv_str));
       try{
         String temp=e.getElementsByTagName("temps").item(0).getTextContent();
@@ -257,4 +244,5 @@ public class Profil {
         return false;//method in jeu
     
     }
+    
 }

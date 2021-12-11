@@ -92,7 +92,7 @@ public class Partie {
   }
   @Override
   public String toString(){
-      return  String.format("\nDate is %s,word is %s,level is %s ,end is %d\n", this.date,this.mot,Integer.toString(this.niveau),this.fin);
+      return  String.format("Date is %s,word is %s,level is %d \n", this.date,this.mot,this.niveau,this.fin);
     }
   public String getMot(){
     return this.mot;
