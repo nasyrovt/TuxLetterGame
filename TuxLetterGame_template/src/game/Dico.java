@@ -3,25 +3,37 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package game;
+import java.io.File;
 import java.util.*;
 import java.util.Random;
+import org.xml.sax.Attributes;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+import java.io.*;
+import org.w3c.dom.DOMException;
 /**
  *
  * @author Нурбек
  */
-public class Dico {
+public class Dico extends DefaultHandler {
+    StringBuffer buffer = new StringBuffer();
+    int niveauSax;
+    private boolean inDictionnaire, inMot;
     private ArrayList<String> listeLevel1;
-    private ArrayList<String> listeLevel2; 
+    private ArrayList<String> listeLevel2;
     private ArrayList<String> listeLevel3;
     private ArrayList<String>listeLevel4;
     private ArrayList<String> listeLevel5;
     private String cheminFichierDico;
     public Dico(String cheminFichierDico){
+        super();
         this.cheminFichierDico=cheminFichierDico;
         listeLevel1=new ArrayList<>();
         listeLevel2=new ArrayList<>();
@@ -43,9 +55,9 @@ public class Dico {
                 return this.getWordFromList(this.listeLevel5);
             default:
                 return "";
-        
+
         }
-        
+
     }
     public void AddWordDico(int level,String mot){
         switch(this.level_verif(level)){
@@ -65,7 +77,8 @@ public class Dico {
                 this.listeLevel5.add(mot);
                 break;
             default:
-                
+                System.out.println("Error in AddWordDico");
+
         }
     }
     public String getCheminFichierDico(){
@@ -84,6 +97,21 @@ public class Dico {
         int rand=r.nextInt(list.size());
         return list.get(rand);
     }
+
+    void lireDictionnaire() throws org.xml.sax.SAXException, ParserConfigurationException, IOException{
+        SAXParserFactory fabrique = SAXParserFactory.newInstance();
+
+        // création d'un parseur SAX
+        SAXParser parseur = fabrique.newSAXParser();
+
+        // lecture d'un fichier XML avec un DefaultHandler
+        File fichier = new File(this.getCheminFichierDico());
+        DefaultHandler gestionnaire = new Dico(this.getCheminFichierDico());
+        parseur.parse(fichier, gestionnaire);
+    }
+
+
+
     public void lireDictDom(String path,String filename){
         try {
             // analyse du document
@@ -92,7 +120,7 @@ public class Dico {
             // récupération de la structure objet du document
             Document doc = p.parse(path+"/"+filename);
             NodeList nodeList=doc.getElementsByTagName("mot");
-            
+
             for(int i=0;i<nodeList.getLength();i++){
                 switch(nodeList.item(i).getAttributes().item(0).getTextContent()){
                     case "1":
@@ -111,13 +139,78 @@ public class Dico {
                         this.AddWordDico(5, nodeList.item(i).getTextContent());
                         break;
                     default:
-                
+
                 }
             }
         }
-        catch(Exception e){
-            
+        catch(IOException | ParserConfigurationException | DOMException | SAXException e){
+            System.out.println("Exception" + e);
         }
-        
+
+    }
+
+    /**
+     *
+     * @param uri
+     * @param localName
+     * @param qName
+     * @param attributes
+     * @throws SAXException
+     */
+    @Override
+    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        switch (qName) {
+            case "dictionnaire":
+                inDictionnaire = true;
+                break;
+            case "mot":
+                try{
+                    niveauSax = Integer.parseInt(attributes.getValue("niveau"));
+                }catch(NumberFormatException e){
+                    //erreur, le contenu de niveau n'est pas un entier
+                    throw new SAXException(e);
+                }   inMot = true;
+                break;
+            default:
+                buffer = new StringBuffer();
+                //erreur, on peut lever une exception
+                throw new SAXException("Balise "+qName+" inconnue.");
+        }
+    }
+
+    @Override
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        switch (qName) {
+            case "dictionnaire":
+                inDictionnaire = false;
+                break;
+            case "mot":
+                System.out.println(String.format("NIVEAU = %d MOT = %s", niveauSax, buffer.toString()));
+                AddWordDico(niveauSax, buffer.toString());
+                System.out.println(String.format("MOT AFTER ADDING %s",getMotFromListe(1)));
+                buffer = new StringBuffer();
+                inMot = false;
+                break;
+            default:
+                //erreur, on peut lever une exception
+                throw new SAXException("Balise "+qName+" inconnue.");
+        }
+    }
+
+    @Override
+    public void characters(char[] ch, int start, int length) throws SAXException {
+        String lecture = new String(ch,start,length);
+        if(inMot && buffer != null)buffer.append(lecture);
+    }
+
+    @Override
+    public void startDocument() throws SAXException {
+        System.out.println("Début du parsing SAX de fichier dico.xml");
+    }
+
+    @Override
+    public void endDocument() throws SAXException {
+        System.out.println("Fin du parsing SAX");
+        System.out.println("Resultats du parsing SAX");
     }
 }

@@ -4,8 +4,11 @@
  */
 package game;
 import env3d.Env;
+import java.io.IOException;
 import java.util.*;
+import javax.xml.parsers.ParserConfigurationException;
 import org.lwjgl.input.Keyboard;
+import org.xml.sax.SAXException;
 
 /**
  *
@@ -16,24 +19,25 @@ public abstract class Jeu  {
         MENU_SORTIE, MENU_CONTINUE, MENU_JOUE
     }
     protected final Env env;
-    private Room mainRoom;
+    private final Room mainRoom;
     private Profil profil;
     protected List<Letter> letters;
     protected List<Letter> mot;
-    protected Dico dict;
+    private Dico dict;
     protected EnvTextMap menuText;   
     private final Room menuRoom;
-    private Tux tux;
+    private final Tux tux;
     public  String the_mot;
     private boolean check_new_user;
     protected int level;
-    public Jeu(){
+    public Jeu() throws SAXException, ParserConfigurationException, IOException{
         
         this.level=1;
         this.letters=new ArrayList<Letter>();
         // Crée un nouvel environnement
         env = new Env();
-        this.mot=new ArrayList<Letter>();       // Instancie une Room
+        this.mot=new ArrayList<Letter>();       
+        // Instancie une Room
         mainRoom =new Room();
         menuRoom = new Room();
         menuRoom.setTextureEast("textures/red.png");
@@ -58,7 +62,8 @@ public abstract class Jeu  {
         
        
         dict=new Dico("../src/xml/dico.xml");//src/xml/dico.xml
-        dict.lireDictDom("../src/xml", "dico.xml");
+        //dict.lireDictDom("../src/xml", "dico.xml");
+        dict.lireDictionnaire();
         menuText = new EnvTextMap(env);
         
         // Textes affichés à l'écran
@@ -421,7 +426,8 @@ public abstract class Jeu  {
     }
     private MENU_VAL clue(){
         MENU_VAL choix = MENU_VAL.MENU_CONTINUE;
-        this.the_mot=dict.getMotFromListe(this.level);
+        this.the_mot=dict.getMotFromListe(1);
+        System.out.println(the_mot);
         String mot=this.the_mot;
         menuText.addText(String.format("Votre mot est %s\n\n\n LEVEL : %d\n", mot.toUpperCase(),1),"Mot",200, 300);
         menuText.getText("Mot").display();
